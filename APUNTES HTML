@@ -1,0 +1,222 @@
+1. <html> - Estructura principal del documento HTML
+    Define el documento HTML y contiene todo el contenido de la página.
+
+                    <!DOCTYPE html>
+                    <html lang="en">
+                    <!-- Todo el contenido HTML va aquí -->
+                    </html>
+------------------------------------------------------------------------------------------------------------------------------
+2. <head> - Encabezado de la página
+    Contiene metadatos y enlaces a archivos externos como CSS y JavaScript.
+
+                    <head>
+                        <meta charset="UTF-8">
+                        <title>Mi Página</title>
+                        <link rel="stylesheet" href="styles.css">
+                    </head>
+
+•	<meta charset="UTF-8">: Define la codificación de caracteres, esencial para mostrar bien caracteres especiales.
+•	<title>: Título de la página que aparece en la pestaña del navegador.
+------------------------------------------------------------------------------------------------------------------------------
+3. <body> - Contenido principal de la página
+    Contiene todos los elementos visuales de la página.
+
+                    <body>
+                        <h1>Bienvenido a mi página web</h1>
+                    </body>
+
+------------------------------------------------------------------------------------------------------------------------------
+4. <h1> a <h6> - Encabezados
+    Son títulos en orden de importancia de <h1> (más importante) a <h6> (menos importante).
+
+                    <h1>Título principal</h1>
+                    <h2>Subtítulo</h2>
+                    <h3>Encabezado menor</h3>
+
+------------------------------------------------------------------------------------------------------------------------------
+5. <p> - Párrafos
+    Define un bloque de texto.
+
+                    <p>Este es un párrafo de texto.</p>
+
+------------------------------------------------------------------------------------------------------------------------------
+6. <a> - Enlace
+    Crea un enlace que puede llevar a otra página o a un recurso externo.
+
+                    <a href="https://www.ejemplo.com" target="_blank">Visita Ejemplo</a>
+
+	•	href: URL a la que apunta el enlace.
+	•	target="_blank": Abre el enlace en una nueva pestaña.
+------------------------------------------------------------------------------------------------------------------------------  
+7. <img> - Imagen
+    Inserta una imagen en la página.
+    
+                    <img src="ruta/imagen.jpg" alt="Descripción de la imagen" width="300"> 
+
+•	src: Ruta de la imagen.
+•	alt: Descripción de la imagen para accesibilidad.
+•	width y height: Ajustan el tamaño de la imagen.
+------------------------------------------------------------------------------------------------------------------------------    
+8. <ul>, <ol>, <li> - Listas
+    Crea listas ordenadas (numeradas) y no ordenadas (con viñetas).    
+
+                    <ul>
+                        <li>Elemento de lista 1</li>
+                        <li>Elemento de lista 2</li>
+                    </ul>
+                    <ol>
+                        <li>Elemento de lista numerada 1</li>
+                        <li>Elemento de lista numerada 2</li>
+                    </ol>
+
+------------------------------------------------------------------------------------------------------------------------------
+9. <div> - Contenedor genérico
+    Sirve como un contenedor para agrupar otros elementos.
+
+                    <div class="seccion">
+                        <h2>Sección Título</h2>
+                        <p>Contenido de la sección.</p>
+                    </div>
+
+•	class y id: Atributos que identifican elementos para aplicar estilos CSS o manipulación JavaScript.
+------------------------------------------------------------------------------------------------------------------------------      
+10. <span> - Contenedor en línea
+    Similar a <div>, pero en línea, ideal para aplicar estilos a parte de un texto.
+
+                    <p>Este es un <span style="color: rgb(135, 135, 173);">texto en azul</span>.</p>
+                    
+------------------------------------------------------------------------------------------------------------------------------
+11. <table>, <tr>, <td>, <th> - Tablas
+    Crea tablas para organizar datos.
+•	<table>: Define la tabla.
+•	<tr>: Fila de la tabla.
+•	<th>: Encabezado de columna.
+•	<td>: Celda de datos.
+    
+                    <table border="1">
+                        <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        </tr>
+                        <tr>
+                        <td>Ana</td>
+                        <td>25</td>
+                        </tr>
+                    </table>
+
+------------------------------------------------------------------------------------------------------------------------------
+12. <form>, <input>, <label>, <button> - Formularios
+    Crea formularios de entrada de datos.
+
+                    <form action="/submit" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                        <button type="submit">Enviar</button>
+                    </form>
+
+•	action: URL a la que se envía el formulario.
+•	method: Método de envío (get o post).
+•	<input>: Campo de entrada.
+•	type: Tipo de entrada (text, email, password, etc.).
+•	<label>: Etiqueta para describir el campo.
+
+------------------------------------------------------------------------------------------------------------------------------
+13. <header>, <footer>, <section>, <nav>, <article> - Estructura de la página
+    Secciones semánticas para estructurar el contenido.
+
+                    <header>
+                        <h1>Encabezado de la Página</h1>
+                    </header>
+                    
+                    <nav>
+                        <a href="#home">Inicio</a>
+                        <a href="#about">Acerca de</a>
+                    </nav>
+                    
+                    <section>
+                        <h2>Sección Principal</h2>
+                        <p>Contenido de la sección.</p>
+                    </section>
+                    
+                    <footer>
+                        <p>© 2024 Mi Página Web</p>
+                    </footer>
+------------------------------------------------------------------------------------------------------------------------------
+14. <br> - Salto de línea
+    Inserta una nueva línea en el texto (sin cerrar la etiqueta).
+
+                   <p>Primera línea<br>Segunda línea</p>
+------------------------------------------------------------------------------------------------------------------------------
+15. <hr> - Línea horizontal
+    Dibuja una línea horizontal para separar secciones.
+
+                    <p>Texto anterior</p>
+                    <hr>
+                    <p>Texto siguiente</p>
+
+
+
+
+
+
+
+
+
+
+
+                    <li class="detalleslista">
+                    <img
+                      class="movericono"
+                      src="assets/images/icons/facebook.png"
+                      alt="icono fb"
+                      width="20px"
+                    />
+                    <a href="https://www.facebook.com">FACEBOOK</a>
+                  </li>
+                  <li class="detalleslista">
+                    <img
+                      class="movericono"
+                      src="assets/images/icons/instagram.png"
+                      alt="icono instagram"
+                      width="20px"
+                    />
+                    <a href="http://www.instagram.com">INSTAGRAM</a>
+                  </li>
+                  <li class="detalleslista">
+                    <img
+                      class="movericono"
+                      src="assets/images/icons/linkedin.png"
+                      alt="icono link"
+                      width="20px"
+                    />
+                    <a href="http://www.linkedin.com">LINKEDIN</a>
+                  </li>
+                  <li class="detalleslista">
+                    <img
+                      class="movericono"
+                      src="assets/images/icons/gorjeo (1).png"
+                      alt="icono X"
+                      width="20px"
+                    />
+                    <a href="http://www.twitter.com">TWITTER</a>
+                  </li>
+                  <li class="detalleslista">
+                    <img
+                      class="movericono"
+                      src="assets/images/icons/youtube.png"
+                      alt="icono yt"
+                      width="20px"
+                    />
+                    <a href="http://www.youtube.com">YOUTUBE</a>
+                  </li>
+                  <li class="detalleslista">
+                    <img
+                      class="movericono"
+                      src="assets/images/icons/tik-tok.png"
+                      alt="icono tiktok"
+                      width="20px"
+                    />
+                    <a href="http://www.tiktok.com">TIKTOK</a>
+                  </li>
+       
+<a class="detalleslista" href="http://www.tiktok.com"><li> <img class="movericono" src="assets/images/icons/tik-tok.png" alt="icono tiktok" width="20px" />TIKTOK </li></a>
