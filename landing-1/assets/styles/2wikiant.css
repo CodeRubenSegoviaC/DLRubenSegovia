@@ -2,7 +2,7 @@
 body {
     font-family: "League Spartan", sans-serif;
     font-style: normal;
-    background: rgba(0, 0, 0, 0.85) url('/landing-1/assets/images/Hojas.jpg') space;
+    background: rgba(0, 0, 0, 0.85) url('../images/Hojas.jpg') space;
     background-blend-mode: overlay;
   }  
 
@@ -19,7 +19,7 @@ a:hover {
 /* ############################################################################################################################## */
 header {
     /* Se da la imagen de fondo para el H1 y H2 de pagina*/
-    background-image: url("/landing-1/assets/images/fondo\ recortado.jpg");
+    background-image: url("../images/fondo\ recortado.jpg");
 /*     Se ajusta automaticamente */
     background-size: cover;
     /* Se crea un borde al cuadro de la imagen */
